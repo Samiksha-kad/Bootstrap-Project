@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: auto;
+}
+/* icon name */
+.shop{
+    font-family: 'Lobster', cursive;
+    font-size: 1.6em;
+    padding:5px;
+    padding-top: 0px;
+    margin: 5px;
+    margin-left: 0px;
+}
+/* Navbar background */
+#navbar::before{
+    content: "";
+    background-color: rgb(247, 199, 137);
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.4;
+    margin-left: -20px;   
+}
+/* nav bar links like home and all to be adjus */
+.nav_li{
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.2em;
+    margin-left: 25px;
+    font-weight: bold;
+}
+.nav_li a:hover{
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+}
+
+/* side images icon of search and shopping cart
+ */
+.icon{
+    margin: 15px;
+    padding:2px;
+}
+.icon:hover{
+    background-color:white;
+    border-radius: 20px;
+    height:40px;
+    width:40px;
+}
+
+/* slides */
+.slides{
+    height:700px;
+    width:100%;
+    padding:30px;
+    opacity:0.8;
+    margin-top: 10px;
+    
+}
+/* heading */
+.heading{
+    margin-bottom: 389px;
+    margin-left: 479px;
+    font-family:' Lobster',cursive;
+    font-weight: bold;
+    font-size: 50px;
+}
+/* under slide btn of shipping moneyback and online support */
+.info_btn{
+    margin-left: 80px;
+    width:300px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.2em;
+}
+.btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+/* featured collection */
+.heading2{
+    margin-top: 20px;
+    text-align: center;
+    font-family:' Lobster',cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+.nav_li_2{
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.2em;
+    margin-left: 25px;
+    font-weight: bold;
+    color: rgb(192, 156, 156);
+}
+.nav_li_2:hover{
+    color: blue;
+}
+.img_inside{
+    margin-top: 10px;
+}
+.img_inside:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* hot deals */
+.img_center{
+    margin-top:20px ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.hotdeals{
+    margin-top:20px ;
+}
+.color{
+    margin-left: 10px;
+}
+.label_color{
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+.img_date{
+    height:50px;
+    width:50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-left: 15px;
+}
+/* instagram */
+.heading3{
+    margin-top: 20px;
+    text-align: center;
+    font-family:' Lobster',cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+.img_inside2{
+    height:200px;
+    width:200px;
+    border-radius: 20px;
+}
+.img_inside2:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 2px solid black;
+}
+/* .best sellers top rates top special */
+.image_list{
+    height:200px;
+    width:200px;
+    padding: 8px;
+    border-radius: 20px;
+
+}
+.image_list:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 2px solid black;
+
+}
+.heading5{
+    margin-top: 10px;
+    text-align: center;
+    font-family:' Lobster',cursive;
+    font-weight: bold;
+    font-size: 23px;
+}
+.bestsellers{
+    border:2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 4px;
+}
+.img_color{
+    height:20px;
+    width:20px;
+}
+.img_rate{
+    height:40px;
+    width:100px;
+}
+
+.footer_img{
+    text-align: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+}
+.footer_p{
+    margin-top: 10px;
+    text-align: center;
+    font-family:' Lobster',cursive;
+    font-weight: bold;
+    font-size: 23px;
+
+}
+.heading6{
+    margin-top: 10px;
+    text-align: center;
+    font-family:' Lobster',cursive;
+    font-weight: bold;
+    font-size: 23px;
+    color:crimson;
+}
+.p1{
+    margin-top: 10px;
+    text-align: center;
+    font-family:' Lobster',cursive;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+.facebook{
+    background-image:linear-gradient(rgb(158, 211, 255),rgb(35, 35, 248));
+    color: white !important;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 19%;
+    border-radius: 10px;
+    margin-left: 3px;
+}
+.facebook:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.label-facebook{
+    margin-left: 5px;
+}
+.instagram{
+    background-image:linear-gradient(rgb(252, 142, 202),rgb(248, 35, 124));
+    color: white !important;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 20%;
+    border-radius: 10px;
+
+}
+.instagram:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.twitter{
+    background-image:linear-gradient(rgb(71, 200, 247),rgb(153, 241, 255));
+    color: white !important;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 19%;
+    border-radius: 10px;
+}
+.twitter:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.dribble{
+    background-image:linear-gradient(rgb(255, 70, 233),rgb(226, 38, 255));
+    color: white !important;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 20%;
+    border-radius: 10px;
+}
+.dribble:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.pinterest{
+    background-image:linear-gradient(rgb(255, 70, 113),rgb(255, 38, 38));
+    color: white !important;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 20%;
+    border-radius: 10px;
+}
+.logo_down{
+    margin-top:20px;
+}
+.footer_p1{
+    margin-top: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.colors{
+    margin-left: 640px;
+}
+.clients{
+    margin-top:10px;
+    height:50px;
+    width:90px;
+    border:1px solid black;
+
+}
